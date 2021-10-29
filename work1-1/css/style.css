@@ -71,11 +71,11 @@ img {
     border: none;
 }
 .title {
-    width: 100%;
+    max-width: 960px;
     display: flex;
     text-align: center;
     padding: 20px;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .nav {
@@ -99,9 +99,14 @@ img {
 
 @media screen and (max-width: 767px) {
     .nav {
-        display: block;
         justify-content: left;
         text-align: left;
         border-bottom: solid 1px #4c4c4c;
+    }
+    .title {
+        display: block;
+    }
+    .content {
+        display: block;
     }
 }
