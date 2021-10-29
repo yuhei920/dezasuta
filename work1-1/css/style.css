@@ -73,7 +73,6 @@ img {
 .title {
     max-width: 960px;
     display: flex;
-    text-align: center;
     padding: 20px;
     margin: 0 auto;
 }
@@ -89,7 +88,6 @@ img {
 
 .content li {
     padding: 10px;
-    text-align: center;
     border-left: solid 1px #4c4c4c;
 }
 .max {
@@ -101,12 +99,17 @@ img {
     .nav {
         justify-content: left;
         text-align: left;
-        border-bottom: solid 1px #4c4c4c;
     }
     .title {
         display: block;
+        border-left: none;
+        justify-content: left;
     }
     .content {
         display: block;
+    }
+    .content li {
+        border-bottom: solid 1px #4c4c4c;
+        border-left: none;
     }
 }
