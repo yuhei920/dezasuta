@@ -109,6 +109,7 @@ img {
         display: block;
     }
     .content li {
+        display: block;
         border-bottom: solid 1px #4c4c4c;
         border-left: none;
     }
