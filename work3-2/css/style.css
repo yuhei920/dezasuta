@@ -60,9 +60,6 @@ body {
     height: 200px;
     margin-left: 50px;
 }
-.left img {
-    width: 100%;
-}
 
 .left div {
     border-left: solid 10px green;
@@ -81,11 +78,8 @@ body {
 .center {
     width: 300px;
     height: 200px;
-    margin-left: 50px;
 }
-.center img {
-    width: 100%;
-}
+
 .center div {
     border-left: 10px green solid;
     background-color: #ffffff;
@@ -104,12 +98,9 @@ body {
 .right {
     width: 300px;
     height: 200px;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.right img {
-    width: 100%;
-}
 .right div {
     border-left: solid 10px green;
     background-color: #ffffff;
@@ -125,9 +116,10 @@ body {
     padding: 7px;
 }
 
-@media screen and(max-width:400px) {
-    .left {
+@media screen and (max-width: 400px) {
+    .wrap {
         display: block;
         margin: 0 auto;
+        margin-top: 10px;
     }
 }
