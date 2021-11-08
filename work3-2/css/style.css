@@ -56,67 +56,36 @@ body {
     margin: 0 auto;
 }
 
-.left {
-    width: 250px;
-    margin-left: 50px;
+.content {
+    width: 30%;
+    background-color: #ffffff;
 }
 
-.left div {
+.content h2 {
     border-left: solid 10px green;
     background-color: #ffffff;
-    font-size: 25px;
     color: green;
     font-weight: bold;
     padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
-.left p {
-    background-color: #ffffff;
-    font-size: 15px;
-    padding: 7px;
-}
-.center {
-    width: 250px;
-}
-
-.center div {
-    border-left: 10px green solid;
-    background-color: #ffffff;
-    font-size: 25px;
-    color: green;
-    font-weight: bold;
-    padding: 5px;
-}
-
-.center p {
-    background-color: #ffffff;
-    font-size: 15px;
-    padding: 7px;
-}
-
-.right {
-    width: 250px;
-    margin-right: 50px;
-}
-
-.right div {
-    border-left: solid 10px green;
-    background-color: #ffffff;
-    font-size: 25px;
-    color: green;
-    font-weight: bold;
-    padding: 5px;
-}
-
-.right p {
-    background-color: #ffffff;
-    font-size: 15px;
+.content p {
     padding: 7px;
 }
 
 @media screen and (max-width: 400px) {
     .wrap {
         display: block;
-        max-width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .content img {
+        width: 100%;
     }
 }
