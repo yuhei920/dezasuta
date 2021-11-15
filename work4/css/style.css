@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #4f260b;
+    font-family: "A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+        "ＭＳ 明朝", serif;
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+/* *ヘッダー箇所＊ -----------------------------------------*/
+.header_container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2.51%;
+    padding-right: 6.53%;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px 6.53% 0 2.51%;
+}
+
+.header_container h1 {
+    width: 226px;
+}
+.pc_nav ul {
+    display: flex;
+}
+.pc_nav li a {
+    color: #fff;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 105px;
+    display: block;
+    text-align: center;
+}
+
+/*スライダー　--------------------------------------*/
+.slider img {
+    width: 100%;
+}
+
+/* 会社紹介 ----------------------------------------*/
+body {
+    background-color: #ffefd5;
+}
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.company {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.company_text {
+    padding: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.text_english {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.main_text {
+    font-size: 80px;
+    line-height: 120px;
+    padding-bottom: 35px;
+}
+.sub_text {
+    font-size: 23px;
+    line-height: 50px;
+}
+/* About us --------------------------*/
+.about_us {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.about_us_picture img {
+    border-radius: 0 0 80px 0;
+    width: 500px;
+}
+.about_us_content {
+    box-sizing: border-box;
+    padding-left: 7%;
+}
+.about_us_img {
+    width: 273px;
+    height: 78px;
+    margin-bottom: 50px;
+}
+.about_us_maintext {
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.about_us_subtext {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* Menu -----------------------------------*/
+.title_menu {
+    text-align: center;
+}
+.title_menu img {
+    width: 151px;
+    height: 78px;
+    margin-bottom: 40px;
+}
+.menu_classfication {
+    display: flex;
+    justify-content: space-between;
+}
+.menu_detail {
+    width: 30%;
+}
+.menu_classfication img {
+    border-top-right-radius: 40px;
+}
+
+.menu_classfication h3 {
+    color: red;
+    font-size: 38px;
+    padding-left: 10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.menu_classfication p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* gallery--------------------------------------------- */
+.gallery {
+    text-align: center;
+}
+.title_gallery img {
+    width: 245px;
+    height: 78px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.gallery_content {
+    width: 100%;
+}
+.gallery_content {
+    display: flex;
+    width: 20%;
+}
+
+/* event-------------------------------------- */
+.event {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title_event {
+    width: 173px;
+    height: 78px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.event_detail {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    border: solid #4f260b;
+}
+.event_detail ul li {
+    font-size: 23px;
+    line-height: 50px;
+    padding-left: 15%;
+    align-items: center;
+}
+
+.event_detail ul span {
+    text-decoration: underline;
+    padding-left: 5.2%;
+}
+/* access----------------------------------------- */
+.access {
+    margin-top: 70px;
+}
+
+.title_access {
+    width: 221px;
+    height: 81px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.access iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* footer------------------------------------------- */
+.footer {
+    background-color: #fff;
+    width: 100%;
+}
+.footer_container {
+    display: flex;
+    padding-left: 23.8%;
+    padding-top: 80px;
+}
+.footer_container img {
+    width: 226px;
+    height: 50px;
+    margin-right: 50px;
+}
+.shop_detail li {
+    font-size: 20px;
+    color: #000;
+    line-height: 52px;
+}
+.footer p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.top {
+    position: fixed;
+    right: 30px;
+    bottom: 0px;
+    width: 125px;
+}
