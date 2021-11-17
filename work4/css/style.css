@@ -85,7 +85,7 @@ img {
 
 /* 会社紹介 ----------------------------------------*/
 body {
-    background-color: #ffefd5;
+    background-color: #e8d9bf;
 }
 .main {
     max-width: 1000px;
@@ -123,11 +123,12 @@ body {
 }
 .about_us_picture img {
     border-radius: 0 0 80px 0;
-    width: 500px;
+    height: 560px;
 }
 .about_us_content {
     box-sizing: border-box;
-    padding-left: 7%;
+    padding-left: 7.8%;
+    width: 43.5%;
 }
 .about_us_img {
     width: 273px;
@@ -211,9 +212,12 @@ body {
 
 .event_detail {
     width: 100%;
-    height: 200px;
     background-color: #fff;
     border: solid #4f260b;
+}
+.event_detail ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .event_detail ul li {
     font-size: 23px;
@@ -246,12 +250,12 @@ body {
 /* footer------------------------------------------- */
 .footer {
     background-color: #fff;
-    width: 100%;
 }
 .footer_container {
     display: flex;
-    padding-left: 23.8%;
     padding-top: 80px;
+    width: 1000px;
+    margin: 0 auto;
 }
 .footer_container img {
     width: 226px;
@@ -262,8 +266,9 @@ body {
     font-size: 20px;
     color: #000;
     line-height: 52px;
+    vertical-align: baseline;
 }
-.footer p {
+.shopname {
     text-align: center;
     color: black;
     font-size: 16px;
