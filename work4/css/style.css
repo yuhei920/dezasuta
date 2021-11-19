@@ -262,10 +262,9 @@ body {
 .shop_detail li {
     font-size: 20px;
     color: #000;
-    line-height: 2.6;
+    line-height: 1;
     vertical-align: baseline;
-    display: flex;
-    align-items: center;
+    margin-bottom: 30px;
 }
 
 .shopname {
