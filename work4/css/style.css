@@ -58,6 +58,7 @@ img {
     padding-right: 6.53%;
     box-sizing: border-box;
     align-items: center;
+    z-index: 100;
     padding: 10px 6.53% 0 2.51%;
 }
 
@@ -88,6 +89,25 @@ img {
 }
 .sp_menu_btn {
     display: none;
+}
+/* スライダー調整ーーーーーーーーーーーー */
+.slick-next {
+    display: none !important;
+}
+.slick-prev {
+    display: none;
+}
+.slick-dots {
+    bottom: 30px;
+}
+.slick-dots li button::before {
+    color: #fff;
+}
+.slick-dots li.slick-active button::before {
+    color: #fff;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
 }
 
 /* 会社紹介 ----------------------------------------*/
@@ -125,6 +145,7 @@ body {
 .sp_sub_text {
     display: none;
 }
+
 /* About us --------------------------*/
 .about_us {
     display: flex;
@@ -407,10 +428,11 @@ body {
     .company_text {
         padding-top: 40px;
         text-align: center;
+        padding-bottom: 10px;
     }
     .text_english {
         font-size: 17px;
-        padding-bottom: 30px;
+        padding-bottom: 27px;
     }
     .main_text {
         font-size: 9vw;
@@ -438,18 +460,18 @@ body {
     }
 
     .sp_about_us_img {
-        width: 50%;
+        width: 160px;
         margin: 0 auto;
         padding-bottom: 15px;
     }
     .sp_about_us_picture {
-        width: 100vw;
         margin-left: -10px;
+        margin-right: -10px;
     }
     .sp_about_us_maintext {
         font-size: 36px;
         line-height: 1.25;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         padding-top: 35px;
     }
     .sp_about_us_subtext {
@@ -459,7 +481,7 @@ body {
 
     /* メニュー ---------------------------------*/
     .title_menu img {
-        width: 30%;
+        width: 87px;
         margin-bottom: 22px;
     }
     .menu_classfication {
@@ -476,7 +498,7 @@ body {
     }
     /* ギャラリーーーーーーーーーーーーーーーーー */
     .title_gallery {
-        width: 37.8%;
+        width: 142.8px;
         margin: 0 auto;
     }
     .gallery_content {
@@ -489,14 +511,16 @@ body {
 
     /* イベントーーーーーーーーーーーーーーーーー */
     .title_event {
-        width: 26.6%;
+        width: 100px;
     }
-    .event_detail {
-        padding: 7.3%;
-        padding-left: 0%;
+    .event_detail ul {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 2.6%;
     }
     .event_detail ul li {
         font-size: 16px;
+        padding-left: 8%;
     }
     .event_detail ul li .pc_li {
         display: none;
@@ -506,10 +530,10 @@ body {
     }
     /* アクセスーーーーーーーーーーーーーーーーーーーーーー */
     .title_access {
-        width: 33%;
+        width: 124px;
     }
     .access iframe {
-        height: 200px;
+        height: 190px;
     }
     /* フッターーーーーーーーーーーーーーーーーーーーーーー */
     .footer_container {
@@ -528,5 +552,7 @@ body {
     }
     .top {
         width: 100px;
+        right: 10px;
+        bottom: 10px;
     }
 }
