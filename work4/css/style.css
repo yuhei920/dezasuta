@@ -224,7 +224,7 @@ body {
 
 .gallery_content {
     display: flex;
-    width: 20%;
+    width: 100%;
 }
 .sp_gallery_content img {
     display: none;
