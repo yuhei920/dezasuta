@@ -81,10 +81,9 @@ img {
     width: 75.6%;
 }
 .pc_nav {
-    align-items: center;
+    padding-left: 22.6%;
     ul {
         display: flex;
-        padding-right: 2.6%;
     }
     ul li {
         color: #fff;
@@ -95,13 +94,12 @@ img {
         width: 8.3%;
         display: block;
         text-align: center;
-        padding-left: 22.6%;
         padding-bottom: 30px;
         margin-top: 30px;
-        text-align: center;
 
         span {
             color: #3c5f7c;
+            margin-right: 2.3%;
         }
     }
 }
