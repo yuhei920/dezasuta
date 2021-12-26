@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuhei Masuda</title>
+    <meta name="description" content="yuheiのポートフォリオ">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- ヘッダーーーーーーーーーーーーーーーーー -->
+    <header>
+        <div class="about_header">
+            <nav class="pc_nav_about">
+                <ul>
+                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">home</a></li>
+                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/about.index.html#home">about</a></li>
+                    <li><a href="#home">work</a></li>
+                    <li><a href="#home">contact</a></li>
+                </ul>
+            </nav>
+            <span>
+                <!-- <img src="images/pc_twitter.png" alt="Twitterロゴ"> -->
+                <a href="https://www.instagram.com/yuuuhei_920/" target="_blank">
+                    <img src="images/pc_insta.png" alt="インスタロゴ">
+                </a>
+            </span>
+        </div>
+        <div class="sp_header_about">
+            <div class="sp_menu_btn"><span></span></div>
+            <nav class="sp_nav_about">
+                <ul>
+                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">home</a></li>
+                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/about.index.html#home">about</a></li>
+                    <li><a href="#home">work</a></li>
+                    <li><a href="#home">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- コンタクトーーーーーーーーーーーーーー -->
+    <section class="contact_detail">
+        <div class="contact_detail_container">
+            <div class="tittle_detail_contact">
+                <h2>contact</h2>
+                <p>お問い合わせ</p>
+            </div>
+            <div class="wrap_detail_contact">
+                Webサイトの制作のご依頼やお見積りなど、<br>
+                お気軽にご相談ください。
+            </div>
+            <div class="contact_field">
+                <p>お名前</p>
+                <div></div>
+            </div>
+            <div class="contact_field">
+                <p>メールアドレス</p>
+                <div></div>
+            </div>
+            <div class="contact_field">
+                <p>件名</p>
+                <div></div>
+            </div>
+            <div class="contact_field">
+                <p>内容</p>
+                <div class="box"></div>
+            </div>
+            <div class="send_button">
+                送信
+            </div>
+        </div>
+    </section>
+    <!-- フッターーーーーーーーーーーーーーーーーーーーー -->
+    <footer class="footer">
+        <p>©️Yuhei Masuda</p>
+        <a href="https://www.instagram.com/yuuuhei_920/" target="_blank">
+            <img src="images/sp_insta.png" alt="インスタロゴ">
+        </a>
+    </footer>
+
+    <script>
+        $(function () {
+            $('.sp_menu_btn').click(function () {
+                $('.sp_nav_about').fadeToggle();
+                $('.sp_menu_btn').toggleClass('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
