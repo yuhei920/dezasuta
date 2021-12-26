@@ -71,6 +71,8 @@ img {
         display: flex;
         justify-content: space-between;
         z-index: 10000;
+        position: relative;
+
         img {
             padding-right: 20px;
         }
@@ -344,7 +346,7 @@ img {
         display: flex;
         position: relative;
         padding-left: 4.1%;
-        margin-top: 15px;
+        margin-top: 20px;
     }
     li {
         color: #fff;
@@ -500,10 +502,10 @@ img {
     color: #3c5f7c;
     margin: 0 auto;
     margin-top: 110px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック bold", "Yu Gothic Medium",
         "游ゴシック", "Yu Gothic", sans-serif;
-    padding: 45px 0 45px 0;
+    padding: 30px 0 30px 0;
     border-radius: 65px;
 }
 // フッターアバウトーーーーーーーーーーーーーーーーーーーーーー//
@@ -574,13 +576,20 @@ img {
     }
 }
 .send_button {
-    width: 245px;
-    background-color: #09afff;
-    margin: 0 auto;
-    color: #fff;
-    font-size: 30px;
-    padding: 25px 0 25px 0;
-    margin-top: 40px;
+    // width: 245px;
+    // background-color: #09afff;
+    // margin: 0 auto;
+    // margin-top: 40px;
+    input {
+        color: #fff;
+        font-size: 30px;
+        padding: 25px 0 25px 0;
+        width: 245px;
+        background-color: #09afff;
+        margin: 0 auto;
+        margin-top: 40px;
+        border: #fff solid;
+    }
 }
 // 映さない部分--------------------------//
 .sp_header_container {
