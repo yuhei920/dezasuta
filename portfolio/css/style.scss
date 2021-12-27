@@ -46,9 +46,13 @@ img {
 }
 
 // ヘッダー箇所ーーーーーーーーーーーーーー---------------//
-
+// .header_overall {
+//     // background-color: #3c5f7c;
+// }
 .header_container {
-    max-width: 85.6%;
+    // max-width: 85.6%;
+    margin-right: 300px;
+    // margin-right: 60px;
     background-color: #3c5f7c;
     display: flex;
     justify-content: space-between;
@@ -87,12 +91,14 @@ img {
 }
 
 .header_wrap {
-    width: 75.6%;
+    // width: 75.6%;
+    position: relative;
+    left: 200px;
 }
 .pc_nav {
     ul {
         display: flex;
-        padding-left: 40%;
+        // padding-left: 40%;
         z-index: 100;
     }
     li a {
@@ -120,14 +126,14 @@ img {
     top: 80px;
     left: 0;
     overflow: hidden;
-    height: 700px;
+    height: 650px;
 
     img {
         max-width: none;
         position: absolute;
         top: 0;
         left: 465px;
-        width: 1000px;
+        width: 100%;
     }
 }
 
@@ -137,8 +143,16 @@ img {
 
 // about//-----------------------------------------
 .main {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
+}
+.main_about {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+.header_main {
+    max-width: 1400px;
 }
 
 .about {
@@ -147,6 +161,7 @@ img {
 .tittle_about {
     margin: 0 15% 50px 0;
     text-align: right;
+    margin-left: auto;
 
     p {
         color: #3c5f7c;
@@ -159,6 +174,7 @@ img {
 .about_wrap {
     background-color: #3c5f7c;
     display: flex;
+    width: 100%;
 }
 .about_photo {
     margin-top: -50px;
@@ -170,6 +186,7 @@ img {
     padding-top: 55px;
     padding-right: 10.1%;
     padding-left: 9.6%;
+    position: relative;
 
     div {
         font-size: 35px;
@@ -186,7 +203,6 @@ img {
 .about_more {
     padding-top: 45px;
     padding-left: 40%;
-    position: relative;
 
     p {
         margin-bottom: -40px;
@@ -372,7 +388,7 @@ img {
     //     align-items: center;
     // }
     span {
-        padding-left: 43%;
+        padding-left: 20%;
 
         img {
             padding-top: 10px;
@@ -633,8 +649,9 @@ img {
     .sp_header_container {
         background-color: #3c5f7c;
         width: 100%;
-        height: 392px;
+        // height: 392px;
         display: block;
+        position: relative;
 
         h1 {
             color: #fff;
@@ -647,6 +664,10 @@ img {
                 padding-left: 7%;
             }
         }
+        .sp_header_back {
+            background-color: #3c5f7c;
+            padding-bottom: 40px;
+        }
         .sp_header_photo img {
             max-width: 100%;
             // height: 313px;
@@ -655,9 +676,11 @@ img {
     }
     .mojiphoto img {
         position: absolute;
-        top: 330px;
+        bottom: 40px;
         left: 4%;
         width: 20%;
+        // margin-top: -80px;
+        // display: block;
     }
 
     .sp_menu_btn {
@@ -950,7 +973,7 @@ img {
             align-items: center;
         }
         a {
-            margin-left: 60%;
+            margin-left: 50%;
             img {
                 display: block;
                 align-items: center;
@@ -1079,9 +1102,9 @@ img {
         }
     }
     // コンタクト詳細ーーーーーー-------//
-    .contact_detail {
-        width: 80%;
-    }
+    // .contact_detail {
+    //     width: 80%;
+    // }
     .tittle_detail_contact {
         h2 {
             font-size: 30px;
@@ -1100,7 +1123,55 @@ img {
     }
     .send_button {
         font-size: 18px;
-        width: 25%;
+        // width: 25%;
         padding: 15px 0;
+        .input {
+            //     color: #fff;
+            //     font-size: 15px;
+            padding: 15px 0 15px 0;
+            width: 100px;
+            //     background-color: #09afff;
+            //     margin: 0 auto;
+            //     margin-top: 40px;
+            //     border: #fff solid;
+            //     margin: 0 auto;
+            // }
+        }
+    }
+}
+@media screen and (max-width: 1400px) {
+    .header_wrap {
+        position: relative;
+        left: 120px;
+    }
+}
+@media screen and (max-width: 1320px) {
+    .header_wrap {
+        position: relative;
+        left: 80px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .header_wrap {
+        position: relative;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header_wrap {
+        position: relative;
+        left: -80px;
+    }
+}
+@media screen and (max-width: 1125px) {
+    .header_wrap {
+        position: relative;
+        left: -160px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .header_wrap {
+        position: relative;
+        left: -180px;
     }
 }

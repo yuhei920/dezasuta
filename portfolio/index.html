@@ -46,10 +46,12 @@
         <!-- sp版-------------------------------------------------  -->
         <div class="sp_header_container">
             <h1>YUHEI<br><span>MASUDA</span></h1>
-            <picture class="sp_header_photo">
-                <source srcset="images/sp_header_767.png" media="(max-width:767px">
-                <img src="images/pc_header.png" alt="空の写真">
-            </picture>
+            <div class="sp_header_back">
+                <picture class="sp_header_photo">
+                    <source srcset="images/sp_header_767.png" media="(max-width:767px">
+                    <img src="images/pc_header.png" alt="空の写真">
+                </picture>
+            </div>
             <div class="mojiphoto">
                 <img src="images/sp_portfolio.png" alt="portfolio文字">
             </div>
@@ -68,14 +70,17 @@
 
 
     <!-- about --------------------->
-    <main class="main">
-        <section class="about" id="about">
-            <div class="about_container">
+
+    <section class="about" id="about">
+        <div class="about_container">
+            <main class="main">
                 <h2 class="tittle_about">
                     <img src="images/pc_about_1.png" alt="about文字">
                     <p>私について</p>
                 </h2>
-                <div class="about_wrap">
+            </main>
+            <div class="about_wrap">
+                <main class="main_about">
                     <div class="about_photo">
                         <img src="images/pc_about.png" alt="カメラで撮影してる">
                     </div>
@@ -93,47 +98,48 @@
                             </div>
                         </a>
                     </div>
+            </div>
+            </main>
+        </div>
+        </div>
+        <!-- aboutのsp版ーーーーーーーーーー -->
+
+        <div class="sp_about_container">
+            <div class="sp_about_content">
+                <div class="sp_about_photo">
+                    <picture>
+                        <source srcset="images/sp_about.png" media="(max-width:376px)">
+                        <img src="images/pc_about.png" alt="sp版の自分の写真">
                 </div>
-
-            </div>
-            </div>
-            <!-- aboutのsp版ーーーーーーーーーー -->
-
-            <div class="sp_about_container">
-                <div class="sp_about_content">
-                    <div class="sp_about_photo">
-                        <picture>
-                            <source srcset="images/sp_about.png" media="(max-width:376px)">
-                            <img src="images/pc_about.png" alt="sp版の自分の写真">
-                    </div>
-                    <h2 class="sp_tittle_about">
-                        <img src="images/sp_about_text.png" alt="about文字">
-                        <p>私について</p>
-                    </h2>
-                    <div class="sp_about_text">
-                        <div>Yuhei Masuda</div>
-                        <p>1997年生まれの24歳。千葉県出身。<br>
-                            大学卒業後、大手企業の営業職として就職。3ヶ月前にWEBデザインを学び始め、
-                            自分の新たな可能性が見つけられた事が嬉しくデザイン・コーディングに取り組んでいます。
-                        </p>
-                        <a href="file:///Users/masudayuuhei/Desktop/portfolio/about.index.html#home">
-                            <div class="sp_about_more">
-                                <p>more view</p>
-                                <picture>
-                                    <source srcset="images/sp_yajirusi.png" media="(max-width:767px)">
-                                    <img src="images/pc_yajirushi.png" alt="矢印">
-                                </picture>
-                            </div>
-                        </a>
-                    </div>
+                <h2 class="sp_tittle_about">
+                    <img src="images/sp_about_text.png" alt="about文字">
+                    <p>私について</p>
+                </h2>
+                <div class="sp_about_text">
+                    <div>Yuhei Masuda</div>
+                    <p>1997年生まれの24歳。千葉県出身。<br>
+                        大学卒業後、大手企業の営業職として就職。3ヶ月前にWEBデザインを学び始め、
+                        自分の新たな可能性が見つけられた事が嬉しくデザイン・コーディングに取り組んでいます。
+                    </p>
+                    <a href="file:///Users/masudayuuhei/Desktop/portfolio/about.index.html#home">
+                        <div class="sp_about_more">
+                            <p>more view</p>
+                            <picture>
+                                <source srcset="images/sp_yajirusi.png" media="(max-width:767px)">
+                                <img src="images/pc_yajirushi.png" alt="矢印">
+                            </picture>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <!-- work------------------ -->
-        <section class="work" id="work">
-            <div class="work_container">
+    <!-- work------------------ -->
+    <section class="work" id="work">
+        <div class="work_container">
+            <main class="main">
                 <h2 class="tittle_work">
                     <picture>
                         <source srcset="images/sp_work_text.png" media="(max-width:767px)">
@@ -158,10 +164,12 @@
                         <p>デザインカンプをもとにコーディング</p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </main>
+        </div>
+    </section>
 
-        <!-- contact ----------------------------->
+    <!-- contact ----------------------------->
+    <main class="main">
         <section class="contact" id="contact">
             <div class="contact_container">
                 <div class="tittle_contact">
@@ -180,24 +188,27 @@
             </div>
         </section>
     </main>
+
     <!-- フッター ------------------------------->
     <footer class="footer">
+
         <p>©️Yuhei Masuda</p>
         <a href="https://www.instagram.com/yuuuhei_920/" target="_blank"> <img src="images/sp_insta.png"
                 alt="インスタロゴ"></a>
+
     </footer>
 
     <script>
         $(function () {
-            $('.sp_menu_btn').click(function () {
+            $('.sp_menu_btn,.sp_nav li').click(function () {
                 $('.sp_nav').fadeToggle();
                 $('.sp_menu_btn').toggleClass('open');
 
             });
-            $('sp_nav a,.sp_menu_btn').click(function () {
-                $('.sp_nav').fadeToggle;
-                $('.sp_menu_btn').toggleClass('close');
-            });
+            // $('sp_nav a,.sp_menu_btn').click(function () {
+            //     $('.sp_nav').fadeToggle;
+            //     $('.sp_menu_btn').toggleClass('close');
+            // });
         });
     </script>
 </body>

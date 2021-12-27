@@ -16,20 +16,23 @@
     <!-- ヘッダーーーーーーーーーーーーーーーーー -->
     <header>
         <div class="about_header">
-            <nav class="pc_nav_about">
-                <ul>
-                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">home</a></li>
-                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/about.index.html#home">about</a></li>
-                    <li><a href="#home">work</a></li>
-                    <li><a href="#home">contact</a></li>
-                </ul>
-            </nav>
-            <span>
-                <!-- <img src="images/pc_twitter.png" alt="Twitterロゴ"> -->
-                <a href="https://www.instagram.com/yuuuhei_920/" target="_blank">
-                    <img src="images/pc_insta.png" alt="インスタロゴ">
-                </a>
-            </span>
+            <main class="main">
+                <nav class="pc_nav_about">
+                    <ul>
+                        <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">home</a></li>
+                        <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/about.index.html#home">about</a></li>
+                        <li><a href="#home">work</a></li>
+                        <li><a href="#home">contact</a></li>
+                        <li><a href="https://www.instagram.com/yuuuhei_920/" target="_blank">
+                                <img src="images/pc_insta.png" alt="インスタロゴ">
+                            </a></li>
+                    </ul>
+                </nav>
+                <span>
+                    <!-- <img src="images/pc_twitter.png" alt="Twitterロゴ"> -->
+
+                </span>
+            </main>
         </div>
         <div class="sp_header_about">
             <div class="sp_menu_btn"><span></span></div>
@@ -95,19 +98,23 @@
                 </form>
 
             </div>
+
         </section>
     </main>
+
     <!-- フッターーーーーーーーーーーーーーーーーーーーー -->
     <footer class="footer">
+
         <p>©️Yuhei Masuda</p>
         <a href="https://www.instagram.com/yuuuhei_920/" target="_blank">
             <img src="images/sp_insta.png" alt="インスタロゴ">
         </a>
+
     </footer>
 
     <script>
         $(function () {
-            $('.sp_menu_btn').click(function () {
+            $('.sp_menu_btn,sp_nav_about li').click(function () {
                 $('.sp_nav_about').fadeToggle();
                 $('.sp_menu_btn').toggleClass('open');
             });

@@ -17,19 +17,22 @@
     <!-- ヘッダーーーーーーーーーーーーーーーーー -->
     <header>
         <div class="about_header">
-            <nav class="pc_nav_about">
-                <ul>
-                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">home</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">work</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
-            <span>
-                <!-- <img src="images/pc_twitter.png" alt="Twitterロゴ"> -->
-                <a href="https://www.instagram.com/yuuuhei_920/" target="_blank"><img src="images/pc_insta.png"
-                        alt="インスタロゴ"></a>
-            </span>
+            <main class="main">
+                <nav class="pc_nav_about">
+                    <ul>
+                        <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="file:///Users/masudayuuhei/Desktop/portfolio/index.html#home">work</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <li> <a href="https://www.instagram.com/yuuuhei_920/" target="_blank"><img
+                                    src="images/pc_insta.png" alt="インスタロゴ"></a></li>
+                    </ul>
+                </nav>
+                <span>
+                    <!-- <img src="images/pc_twitter.png" alt="Twitterロゴ"> -->
+
+                </span>
+            </main>
         </div>
         <div class="sp_header_about">
             <div class="sp_menu_about_btn"><span></span></div>
@@ -44,7 +47,7 @@
         </div>
     </header>
     <!-- アバウト詳細ーーーーーーーーーーーーーーーーーーーーー -->
-    <main>
+    <main class="main">
         <section class="about_detail">
             <h2 class="about_letter">
                 <picture>
@@ -106,6 +109,8 @@
             </div>
         </section>
         <!-- スキルーーーーーーーーーーーーーーーーーーーー -->
+
+
         <section class="skill">
             <h2 class="skill_tittle">
                 <picture>
@@ -134,8 +139,10 @@
                 </div>
             </div>
         </section>
-        <!-- コンタクトーーーーーーーーーーーーーーーーーーーーーーーーー -->
-        <section class="contact_about" id="contact">
+    </main>
+    <!-- コンタクトーーーーーーーーーーーーーーーーーーーーーーーーー -->
+    <section class="contact_about" id="contact">
+        <main class="main">
             <div class="contact_about_container">
                 <div class="tittle_about_contact">
                     <h2>contact</h2>
@@ -151,16 +158,19 @@
                     </div>
                 </a>
             </div>
-        </section>
-    </main>
+        </main>
+    </section>
+    <!-- フッターーーーーーーーーーーーーーーーーーーーーー -->
     <footer class="footer_about">
+
         <p>©️Yuhei Masuda</p>
         <a href="https://www.instagram.com/yuuuhei_920/" target="_blank"><img src="images/sp_insta.png"
                 alt="インスタロゴ"></a>
+
     </footer>
     <script>
         $(function () {
-            $('.sp_menu_about_btn').click(function () {
+            $('.sp_menu_about_btn,.sp_nav_about li').click(function () {
                 $('.sp_nav_about').fadeToggle();
                 $('.sp_menu_about_btn').toggleClass('open');
             });
