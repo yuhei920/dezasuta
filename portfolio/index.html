@@ -46,8 +46,8 @@
         <!-- sp版-------------------------------------------------  -->
         <div class="sp_header_container">
             <h1>YUHEI<br><span>MASUDA</span></h1>
-            <picture>
-                <source srcset="images/sp_header.png" media="(max-width:376px">
+            <picture class="sp_header_photo">
+                <source srcset="images/sp_header_767.png" media="(max-width:767px">
                 <img src="images/pc_header.png" alt="空の写真">
             </picture>
             <div class="mojiphoto">
@@ -179,19 +179,24 @@
                 </a>
             </div>
         </section>
-
-        <!-- フッター ------------------------------->
-        <footer class="footer">
-            <p>©️Yuhei Masuda</p>
-            <a href="https://www.instagram.com/yuuuhei_920/" target="_blank"> <img src="images/sp_insta.png"
-                    alt="インスタロゴ"></a>
-        </footer>
     </main>
+    <!-- フッター ------------------------------->
+    <footer class="footer">
+        <p>©️Yuhei Masuda</p>
+        <a href="https://www.instagram.com/yuuuhei_920/" target="_blank"> <img src="images/sp_insta.png"
+                alt="インスタロゴ"></a>
+    </footer>
+
     <script>
         $(function () {
             $('.sp_menu_btn').click(function () {
                 $('.sp_nav').fadeToggle();
                 $('.sp_menu_btn').toggleClass('open');
+
+            });
+            $('sp_nav a,.sp_menu_btn').click(function () {
+                $('.sp_nav').fadeToggle;
+                $('.sp_menu_btn').toggleClass('close');
             });
         });
     </script>

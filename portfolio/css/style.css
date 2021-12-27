@@ -142,6 +142,11 @@ img {
   display: none;
 }
 
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .about {
   padding-top: 155px;
 }
@@ -291,6 +296,7 @@ img {
   padding-top: 61px;
   font-size: 16px;
   text-align: center;
+  line-height: 1.5;
 }
 
 .contact {
@@ -319,6 +325,7 @@ img {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   padding-top: 63px;
   color: #3c5f7c;
+  line-height: 1.9;
 }
 
 .contact_button {
@@ -486,6 +493,7 @@ img {
   color: #3c5f7c;
   font-size: 20px;
   margin-left: 5%;
+  line-height: 1.7;
 }
 
 .contact_about {
@@ -517,6 +525,7 @@ img {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   padding-top: 63px;
   color: #fff;
+  line-height: 1.9;
 }
 
 .contact_about_button {
@@ -555,7 +564,6 @@ img {
 .contact_detail {
   padding-top: 35px;
   margin: 0 auto;
-  width: 46%;
 }
 
 .contact_detail_container {
@@ -576,16 +584,19 @@ img {
 }
 
 .wrap_detail_contact {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   padding-top: 63px;
   padding-bottom: 45px;
   color: #3c5f7c;
+  line-height: 1.9;
 }
 
 .contact_field {
   text-align: left;
   padding-bottom: 25px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .contact_field p {
@@ -668,9 +679,8 @@ img {
   .sp_header_container h1 span {
     padding-left: 7%;
   }
-  .sp_header_container img {
+  .sp_header_container .sp_header_photo {
     width: 100%;
-    height: 313px;
     padding-top: 5px;
   }
   .mojiphoto img {
@@ -678,7 +688,6 @@ img {
     top: 280px;
     left: 4%;
     width: 20%;
-    height: 17%;
   }
   .sp_menu_btn {
     position: absolute;
@@ -919,6 +928,9 @@ img {
   }
   .work_three p {
     padding-top: 30px;
+  }
+  .work_container {
+    padding-bottom: 0px;
   }
   .contact {
     padding-top: 90px;
