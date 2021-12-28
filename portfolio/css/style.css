@@ -56,7 +56,7 @@ img {
 
 .header_name h1 {
   color: #fff;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   font-weight: bold;
   font-size: 50px;
   padding-top: 70px;
@@ -147,7 +147,12 @@ img {
   margin: 0 auto;
 }
 
-.main_about {
+.main_div {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main_about_width {
   max-width: 1400px;
   margin: 0 auto;
   display: -webkit-box;
@@ -172,17 +177,17 @@ img {
 .tittle_about p {
   color: #3c5f7c;
   font-size: 20px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   padding-right: 5%;
   margin-top: -10px;
 }
 
 .about_wrap {
   background-color: #3c5f7c;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
 }
 
 .about_photo {
@@ -238,7 +243,7 @@ img {
 
 .work_container {
   background-color: #a9c8d8;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   position: relative;
   max-width: 100%;
 }
@@ -277,7 +282,7 @@ img {
 .tittle_work p {
   color: #3c5f7c;
   font-size: 23px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   margin-top: -30px;
 }
 
@@ -325,20 +330,20 @@ img {
 .tittle_contact h2 {
   color: #3c5f7c;
   font-size: 50px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
 }
 
 .tittle_contact p {
   color: #3c5f7c;
   font-size: 20px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   margin-top: 20px;
 }
 
 .wrap_contact {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-  padding-top: 63px;
+  padding-top: 45px;
   color: #3c5f7c;
   line-height: 1.9;
 }
@@ -370,7 +375,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
 }
 
 .footer img {
@@ -392,6 +397,9 @@ img {
   position: relative;
   padding-left: 4.1%;
   margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about_header li {
@@ -424,7 +432,7 @@ img {
 .about_letter p {
   color: #3c5f7c;
   font-size: 20px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   margin-top: -10px;
 }
 
@@ -439,7 +447,7 @@ img {
 .about_detail_container span {
   color: #fff;
   font-size: 15px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
 }
 
 .about_detail_container div {
@@ -474,7 +482,7 @@ img {
 .skill_tittle p {
   color: #3c5f7c;
   font-size: 20px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   margin-top: -10px;
 }
 
@@ -525,13 +533,13 @@ img {
 .tittle_about_contact h2 {
   color: #fff;
   font-size: 50px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
 }
 
 .tittle_about_contact p {
   color: #fff;
   font-size: 20px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   margin-top: 20px;
 }
 
@@ -569,7 +577,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
 }
 
 .footer_about img {
@@ -588,13 +596,13 @@ img {
 .tittle_detail_contact h2 {
   color: #3c5f7c;
   font-size: 50px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
 }
 
 .tittle_detail_contact p {
   color: #3c5f7c;
   font-size: 20px;
-  font-family: "ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 Pro", serif;
   margin-top: 20px;
 }
 
@@ -685,7 +693,7 @@ img {
   }
   .sp_header_container h1 {
     color: #fff;
-    font-family: "ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 Pro", serif;
     font-weight: bold;
     padding-left: 2%;
     font-size: 20px;
@@ -710,11 +718,13 @@ img {
   }
   .sp_menu_btn {
     position: absolute;
-    top: 25px;
+    top: 4px;
     right: 10px;
     display: block;
     z-index: 100;
     cursor: pointer;
+    height: 45px;
+    width: 45px;
   }
   .sp_menu_btn span {
     background: #fff;
@@ -724,6 +734,7 @@ img {
     position: relative;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    top: 20px;
   }
   .sp_menu_btn span::before,
   .sp_menu_btn span::after {
@@ -801,11 +812,13 @@ img {
   }
   .sp_menu_about_btn {
     position: absolute;
-    top: 25px;
+    top: 4px;
     right: 10px;
     display: block;
     z-index: 1000;
     cursor: pointer;
+    height: 45px;
+    width: 45px;
   }
   .sp_menu_about_btn span {
     background: #fff;
@@ -815,6 +828,7 @@ img {
     position: relative;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    top: 20px;
   }
   .sp_menu_about_btn span::before,
   .sp_menu_about_btn span::after {
@@ -878,6 +892,20 @@ img {
     padding: 20px 0;
     text-align: center;
   }
+  .contact_button {
+    width: 30%;
+  }
+  .contact_about_button {
+    width: 30%;
+  }
+  .contact_field {
+    width: 80%;
+  }
+  .send_button input {
+    width: 180px;
+    font-size: 23px;
+    padding: 20px 0 20px 0;
+  }
   .footer {
     text-align: left;
     display: -webkit-box;
@@ -895,18 +923,19 @@ img {
   .footer p {
     color: #fff;
     font-size: 14px;
-    font-family: "ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 Pro", serif;
     margin-top: 5px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-right: 10px;
+    padding-left: 10px;
   }
   .footer a img {
     display: block;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 20px;
   }
   .footer_about {
     border-top: solid 1px #fff;
@@ -918,16 +947,19 @@ img {
     padding-bottom: 25px;
     position: relative;
     max-width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .footer_about p {
     color: #fff;
     font-size: 14px;
-    font-family: "ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 Pro", serif;
     margin-top: 5px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-right: 10px;
+    padding-left: 10px;
   }
   .footer_about a img {
     display: block;
@@ -935,6 +967,7 @@ img {
         -ms-flex-align: center;
             align-items: center;
     text-align: right;
+    padding-right: 20px;
   }
 }
 
@@ -956,7 +989,7 @@ img {
   .sp_tittle_about p {
     color: #fff;
     font-size: 8px;
-    font-family: "ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 Pro", serif;
     margin-top: -7px;
     padding-left: 3%;
   }
@@ -985,6 +1018,7 @@ img {
     width: 30%;
     padding-right: 3%;
     padding-bottom: 50px;
+    margin-top: 7px;
   }
   .work {
     padding-top: 125px;
@@ -1036,33 +1070,6 @@ img {
     padding: 30px 0 30px 0;
     border-radius: 65px;
   }
-  .footer {
-    text-align: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    position: relative;
-    max-width: 100%;
-  }
-  .footer p {
-    color: #fff;
-    font-size: 14px;
-    font-family: "ヒラギノ明朝 Pro";
-    padding-left: 4%;
-    margin-top: 5px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .footer a img {
-    display: block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .about_main {
     display: none;
   }
@@ -1086,7 +1093,7 @@ img {
   .sp_tittle_aboutdetail p {
     color: #fff;
     font-size: 15px;
-    font-family: "ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 Pro", serif;
     padding-left: 1%;
   }
   .sp_aboutdetail_text {
@@ -1148,34 +1155,6 @@ img {
     padding: 30px 0 30px 0;
     border-radius: 65px;
   }
-  .footer_about {
-    border-top: solid 1px #fff;
-    text-align: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    position: relative;
-    max-width: 100%;
-  }
-  .footer_about p {
-    color: #fff;
-    font-size: 14px;
-    font-family: "ヒラギノ明朝 Pro";
-    padding-left: 4%;
-    margin-top: 5px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .footer_about a img {
-    display: block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: right;
-  }
   .tittle_detail_contact h2 {
     font-size: 30px;
   }
@@ -1185,16 +1164,16 @@ img {
   .wrap_detail_contact {
     font-size: 18px;
   }
+  .contact_field {
+    width: 80%;
+  }
   .contact_field p {
     font-size: 15px;
   }
-  .send_button {
+  .send_button input {
+    width: 150px;
     font-size: 18px;
-    padding: 15px 0;
-  }
-  .send_button .input {
     padding: 15px 0 15px 0;
-    width: 100px;
   }
 }
 

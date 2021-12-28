@@ -60,7 +60,7 @@ img {
 .header_name {
     h1 {
         color: #fff;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         font-weight: bold;
         font-size: 50px;
         padding-top: 70px;
@@ -146,7 +146,16 @@ img {
     max-width: 1400px;
     margin: 0 auto;
 }
-.main_about {
+// .main_about {
+//     max-width: 1400px;
+//     margin: 0 auto;
+//     display: flex;
+// }
+.main_div {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main_about_width {
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -167,15 +176,17 @@ img {
     p {
         color: #3c5f7c;
         font-size: 20px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         padding-right: 5%;
         margin-top: -10px;
     }
 }
+
 .about_wrap {
     background-color: #3c5f7c;
-    display: flex;
     width: 100%;
+
+    display: flex;
 }
 .about_photo {
     margin-top: -50px;
@@ -228,7 +239,7 @@ img {
 }
 .work_container {
     background-color: #a9c8d8;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     position: relative;
     max-width: 100%;
     // background: linear-gradient(135deg, transparent 50px, #a9c8d8 0) top left,
@@ -266,7 +277,7 @@ img {
     p {
         color: #3c5f7c;
         font-size: 23px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         margin-top: -30px;
     }
 }
@@ -308,20 +319,20 @@ img {
     h2 {
         color: #3c5f7c;
         font-size: 50px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
     }
     p {
         color: #3c5f7c;
         font-size: 20px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         margin-top: 20px;
     }
 }
 .wrap_contact {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
         "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    padding-top: 63px;
+    padding-top: 45px;
     color: #3c5f7c;
     line-height: 1.9;
 }
@@ -350,7 +361,7 @@ img {
         color: #fff;
         font-size: 20px;
         align-items: center;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
     }
     img {
         display: none;
@@ -368,6 +379,7 @@ img {
         position: relative;
         padding-left: 4.1%;
         margin-top: 20px;
+        align-items: center;
     }
     li {
         color: #fff;
@@ -410,7 +422,7 @@ img {
     p {
         color: #3c5f7c;
         font-size: 20px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         margin-top: -10px;
     }
 }
@@ -425,7 +437,7 @@ img {
     span {
         color: #fff;
         font-size: 15px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
     }
     div {
         color: #fff;
@@ -457,7 +469,7 @@ img {
     p {
         color: #3c5f7c;
         font-size: 20px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         margin-top: -10px;
     }
 }
@@ -502,12 +514,12 @@ img {
     h2 {
         color: #fff;
         font-size: 50px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
     }
     p {
         color: #fff;
         font-size: 20px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         margin-top: 20px;
     }
 }
@@ -543,7 +555,7 @@ img {
         color: #fff;
         font-size: 20px;
         align-items: center;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
     }
     img {
         display: none;
@@ -562,12 +574,12 @@ img {
     h2 {
         color: #3c5f7c;
         font-size: 50px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
     }
     p {
         color: #3c5f7c;
         font-size: 20px;
-        font-family: "ヒラギノ明朝 Pro";
+        font-family: "ヒラギノ明朝 Pro", serif;
         margin-top: 20px;
     }
 }
@@ -656,7 +668,7 @@ img {
 
         h1 {
             color: #fff;
-            font-family: "ヒラギノ明朝 Pro";
+            font-family: "ヒラギノ明朝 Pro", serif;
             font-weight: bold;
             padding-left: 2%;
             font-size: 20px;
@@ -686,11 +698,13 @@ img {
 
     .sp_menu_btn {
         position: absolute;
-        top: 25px;
+        top: 4px;
         right: 10px;
         display: block;
         z-index: 100;
         cursor: pointer;
+        height: 45px;
+        width: 45px;
         // .sp_menu_btn span {
         //     background: #fff;
         //     width: 30px;
@@ -706,6 +720,7 @@ img {
         display: block;
         position: relative;
         transition: 0.3s;
+        top: 20px;
     }
     .sp_menu_btn span::before,
     .sp_menu_btn span::after {
@@ -775,11 +790,13 @@ img {
     }
     .sp_menu_about_btn {
         position: absolute;
-        top: 25px;
+        top: 4px;
         right: 10px;
         display: block;
         z-index: 1000;
         cursor: pointer;
+        height: 45px;
+        width: 45px;
         // .sp_menu_btn span {
         //     background: #fff;
         //     width: 30px;
@@ -795,6 +812,7 @@ img {
         display: block;
         position: relative;
         transition: 0.3s;
+        top: 20px;
     }
     .sp_menu_about_btn span::before,
     .sp_menu_about_btn span::after {
@@ -851,6 +869,22 @@ img {
             text-align: center;
         }
     }
+    // コンタクトボタン//
+    .contact_button {
+        width: 30%;
+    }
+    .contact_about_button {
+        width: 30%;
+    }
+    // コンタクト詳細にーーーーーーーーーーーーー//
+    .contact_field {
+        width: 80%;
+    }
+    .send_button input {
+        width: 180px;
+        font-size: 23px;
+        padding: 20px 0 20px 0;
+    }
     // フッター---------------------/
     .footer {
         text-align: left;
@@ -864,17 +898,18 @@ img {
         p {
             color: #fff;
             font-size: 14px;
-            font-family: "ヒラギノ明朝 Pro";
+            font-family: "ヒラギノ明朝 Pro", serif;
             // padding-left: 4%;
             margin-top: 5px;
             align-items: center;
-            padding-right: 10px;
+            padding-left: 10px;
         }
         a {
             // margin-left: 50%;
             img {
                 display: block;
                 align-items: center;
+                padding-right: 20px;
             }
         }
     }
@@ -887,14 +922,15 @@ img {
         padding-bottom: 25px;
         position: relative;
         max-width: 100%;
+        justify-content: space-between;
         p {
             color: #fff;
             font-size: 14px;
-            font-family: "ヒラギノ明朝 Pro";
+            font-family: "ヒラギノ明朝 Pro", serif;
             // padding-left: 4%;
             margin-top: 5px;
             align-items: center;
-            padding-right: 10px;
+            padding-left: 10px;
         }
         a {
             // margin-left: 60%;
@@ -902,6 +938,7 @@ img {
                 display: block;
                 align-items: center;
                 text-align: right;
+                padding-right: 20px;
             }
         }
     }
@@ -924,7 +961,7 @@ img {
         p {
             color: #fff;
             font-size: 8px;
-            font-family: "ヒラギノ明朝 Pro";
+            font-family: "ヒラギノ明朝 Pro", serif;
             margin-top: -7px;
             padding-left: 3%;
         }
@@ -953,6 +990,7 @@ img {
             width: 30%;
             padding-right: 3%;
             padding-bottom: 50px;
+            margin-top: 7px;
         }
     }
     // work-----------------------------------//
@@ -1011,30 +1049,30 @@ img {
         border-radius: 65px;
     }
     // footer-------------------------------//
-    .footer {
-        text-align: left;
-        display: flex;
-        margin-top: 60px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        position: relative;
-        max-width: 100%;
-        p {
-            color: #fff;
-            font-size: 14px;
-            font-family: "ヒラギノ明朝 Pro";
-            padding-left: 4%;
-            margin-top: 5px;
-            align-items: center;
-        }
-        a {
-            // margin-left: 50%;
-            img {
-                display: block;
-                align-items: center;
-            }
-        }
-    }
+    // .footer {
+    //     text-align: left;
+    //     display: flex;
+    //     margin-top: 60px;
+    //     padding-top: 25px;
+    //     padding-bottom: 25px;
+    //     position: relative;
+    //     max-width: 100%;
+    //     p {
+    //         color: #fff;
+    //         font-size: 14px;
+    //         font-family: "ヒラギノ明朝 Pro", serif;
+    //         padding-left: 4%;
+    //         margin-top: 5px;
+    //         align-items: center;
+    //     }
+    //     a {
+    //         // margin-left: 50%;
+    //         img {
+    //             display: block;
+    //             align-items: center;
+    //         }
+    //     }
+    // }
     // spアバウト詳細についてーーーーーーーーーー//
     .about_main {
         display: none;
@@ -1060,7 +1098,7 @@ img {
         p {
             color: #fff;
             font-size: 15px;
-            font-family: "ヒラギノ明朝 Pro";
+            font-family: "ヒラギノ明朝 Pro", serif;
             padding-left: 1%;
         }
     }
@@ -1131,31 +1169,31 @@ img {
     }
     // sp版アバウトフッターーーーーーーーーーーーーーーーーーーーーー//
 
-    .footer_about {
-        border-top: solid 1px #fff;
-        text-align: left;
-        display: flex;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        position: relative;
-        max-width: 100%;
-        p {
-            color: #fff;
-            font-size: 14px;
-            font-family: "ヒラギノ明朝 Pro";
-            padding-left: 4%;
-            margin-top: 5px;
-            align-items: center;
-        }
-        a {
-            // margin-left: 60%;
-            img {
-                display: block;
-                align-items: center;
-                text-align: right;
-            }
-        }
-    }
+    // .footer_about {
+    //     border-top: solid 1px #fff;
+    //     text-align: left;
+    //     display: flex;
+    //     padding-top: 25px;
+    //     padding-bottom: 25px;
+    //     position: relative;
+    //     max-width: 100%;
+    //     p {
+    //         color: #fff;
+    //         font-size: 14px;
+    //         font-family: "ヒラギノ明朝 Pro", serif;
+    //         padding-left: 4%;
+    //         margin-top: 5px;
+    //         align-items: center;
+    //     }
+    //     a {
+    //         // margin-left: 60%;
+    //         img {
+    //             display: block;
+    //             align-items: center;
+    //             text-align: right;
+    //         }
+    //     }
+    // }
     // コンタクト詳細ーーーーーー-------//
     // .contact_detail {
     //     width: 80%;
@@ -1172,26 +1210,15 @@ img {
         font-size: 18px;
     }
     .contact_field {
+        width: 80%;
         p {
             font-size: 15px;
         }
     }
-    .send_button {
+    .send_button input {
+        width: 150px;
         font-size: 18px;
-        // width: 25%;
-        padding: 15px 0;
-        .input {
-            //     color: #fff;
-            //     font-size: 15px;
-            padding: 15px 0 15px 0;
-            width: 100px;
-            //     background-color: #09afff;
-            //     margin: 0 auto;
-            //     margin-top: 40px;
-            //     border: #fff solid;
-            //     margin: 0 auto;
-            // }
-        }
+        padding: 15px 0 15px 0;
     }
 }
 @media screen and (max-width: 1400px) {
