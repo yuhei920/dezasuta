@@ -151,6 +151,7 @@ img {
     margin: 0 auto;
     display: flex;
 }
+
 .header_main {
     max-width: 1400px;
 }
@@ -777,7 +778,7 @@ img {
         top: 25px;
         right: 10px;
         display: block;
-        z-index: 100;
+        z-index: 1000;
         cursor: pointer;
         // .sp_menu_btn span {
         //     background: #fff;
@@ -831,6 +832,7 @@ img {
         width: 100%;
         height: 100vh;
         background: rgba(0, 0, 0, 0.7);
+        z-index: 100;
 
         ul {
             display: flex;
@@ -849,7 +851,60 @@ img {
             text-align: center;
         }
     }
-    // about詳細---------------------//
+    // フッター---------------------/
+    .footer {
+        text-align: left;
+        display: flex;
+        margin-top: 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        max-width: 100%;
+        justify-content: space-between;
+        p {
+            color: #fff;
+            font-size: 14px;
+            font-family: "ヒラギノ明朝 Pro";
+            // padding-left: 4%;
+            margin-top: 5px;
+            align-items: center;
+            padding-right: 10px;
+        }
+        a {
+            // margin-left: 50%;
+            img {
+                display: block;
+                align-items: center;
+            }
+        }
+    }
+    // フッターアバウト
+    .footer_about {
+        border-top: solid 1px #fff;
+        text-align: left;
+        display: flex;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        max-width: 100%;
+        p {
+            color: #fff;
+            font-size: 14px;
+            font-family: "ヒラギノ明朝 Pro";
+            // padding-left: 4%;
+            margin-top: 5px;
+            align-items: center;
+            padding-right: 10px;
+        }
+        a {
+            // margin-left: 60%;
+            img {
+                display: block;
+                align-items: center;
+                text-align: right;
+            }
+        }
+    }
 }
 @media screen and (max-width: 767px) {
     // about--------------------------------//
@@ -973,7 +1028,7 @@ img {
             align-items: center;
         }
         a {
-            margin-left: 50%;
+            // margin-left: 50%;
             img {
                 display: block;
                 align-items: center;
@@ -1093,7 +1148,7 @@ img {
             align-items: center;
         }
         a {
-            margin-left: 60%;
+            // margin-left: 60%;
             img {
                 display: block;
                 align-items: center;

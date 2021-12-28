@@ -804,7 +804,7 @@ img {
     top: 25px;
     right: 10px;
     display: block;
-    z-index: 100;
+    z-index: 1000;
     cursor: pointer;
   }
   .sp_menu_about_btn span {
@@ -854,6 +854,7 @@ img {
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
+    z-index: 100;
   }
   .sp_nav_about ul {
     display: -webkit-box;
@@ -876,6 +877,64 @@ img {
     display: block;
     padding: 20px 0;
     text-align: center;
+  }
+  .footer {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    max-width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "ヒラギノ明朝 Pro";
+    margin-top: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 10px;
+  }
+  .footer a img {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_about {
+    border-top: solid 1px #fff;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    max-width: 100%;
+  }
+  .footer_about p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "ヒラギノ明朝 Pro";
+    margin-top: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 10px;
+  }
+  .footer_about a img {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: right;
   }
 }
 
@@ -998,9 +1057,6 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
-  .footer a {
-    margin-left: 50%;
-  }
   .footer a img {
     display: block;
     -webkit-box-align: center;
@@ -1112,9 +1168,6 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .footer_about a {
-    margin-left: 60%;
   }
   .footer_about a img {
     display: block;
