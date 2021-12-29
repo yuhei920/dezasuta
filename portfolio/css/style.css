@@ -304,7 +304,7 @@ img {
   position: relative;
 }
 
-.work_three div {
+.work_three h3 {
   font-size: 25px;
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   font-weight: bold;
@@ -388,6 +388,10 @@ img {
   display: -ms-flexbox;
   display: flex;
   max-width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
 }
 
 .about_header ul {
@@ -413,14 +417,10 @@ img {
           align-items: center;
 }
 
-.about_header span {
-  padding-left: 20%;
-}
-
-.about_header span img {
+.about_header img {
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: 5px;
+  padding-right: 40px;
 }
 
 .about_letter {
@@ -593,7 +593,7 @@ img {
   text-align: center;
 }
 
-.tittle_detail_contact h2 {
+.tittle_detail_contact h1 {
   color: #3c5f7c;
   font-size: 50px;
   font-family: "ヒラギノ明朝 Pro", serif;
@@ -641,9 +641,9 @@ img {
 
 .send_button input {
   color: #fff;
-  font-size: 30px;
-  padding: 25px 0 25px 0;
-  width: 245px;
+  font-size: 23px;
+  padding: 18px 0 18px 0;
+  width: 150px;
   background-color: #09afff;
   margin: 0 auto;
   margin-top: 40px;
@@ -721,7 +721,7 @@ img {
     top: 5px;
     right: 10px;
     display: block;
-    z-index: 100;
+    z-index: 1000;
     cursor: pointer;
     height: 45px;
     width: 45px;
@@ -969,6 +969,11 @@ img {
     text-align: right;
     padding-right: 20px;
   }
+  .send_button input {
+    width: 120px;
+    font-size: 17px;
+    padding: 12px 0 12px 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -981,6 +986,9 @@ img {
   .sp_about_container {
     display: block;
     background-color: #3c5f7c;
+    width: 100%;
+  }
+  .sp_about_photo img {
     width: 100%;
   }
   .sp_tittle_about {
@@ -1038,7 +1046,7 @@ img {
     width: 100%;
     padding-bottom: 60px;
   }
-  .work_three div {
+  .work_three h3 {
     font-size: 18px;
   }
   .work_three p {
@@ -1086,6 +1094,9 @@ img {
   .sp_aboutdetail_photo {
     width: 100%;
     text-align: center;
+  }
+  .sp_aboutdetail_photo img {
+    width: 100%;
   }
   .sp_tittle_aboutdetail {
     padding-left: 2%;
@@ -1171,9 +1182,9 @@ img {
     font-size: 15px;
   }
   .send_button input {
-    width: 150px;
-    font-size: 18px;
-    padding: 15px 0 15px 0;
+    width: 100px;
+    font-size: 15px;
+    padding: 12px 0 12px 0;
   }
 }
 

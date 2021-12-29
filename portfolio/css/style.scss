@@ -293,7 +293,7 @@ img {
     width: 28.1%;
     position: relative;
 
-    div {
+    h3 {
         font-size: 25px;
         font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
             "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
@@ -373,6 +373,8 @@ img {
     background-color: #3c5f7c;
     display: flex;
     max-width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
 
     ul {
         display: flex;
@@ -400,14 +402,11 @@ img {
     //     font-weight: bold;
     //     align-items: center;
     // }
-    span {
-        padding-left: 20%;
 
-        img {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin-left: 5px;
-        }
+    img {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 40px;
     }
 }
 // .sp_nav_about {
@@ -571,7 +570,7 @@ img {
     text-align: center;
 }
 .tittle_detail_contact {
-    h2 {
+    h1 {
         color: #3c5f7c;
         font-size: 50px;
         font-family: "ヒラギノ明朝 Pro", serif;
@@ -619,9 +618,9 @@ img {
     // margin-top: 40px;
     input {
         color: #fff;
-        font-size: 30px;
-        padding: 25px 0 25px 0;
-        width: 245px;
+        font-size: 23px;
+        padding: 18px 0 18px 0;
+        width: 150px;
         background-color: #09afff;
         margin: 0 auto;
         margin-top: 40px;
@@ -701,7 +700,7 @@ img {
         top: 5px;
         right: 10px;
         display: block;
-        z-index: 100;
+        z-index: 1000;
         cursor: pointer;
         height: 45px;
         width: 45px;
@@ -942,6 +941,11 @@ img {
             }
         }
     }
+    .send_button input {
+        width: 120px;
+        font-size: 17px;
+        padding: 12px 0 12px 0;
+    }
 }
 @media screen and (max-width: 767px) {
     // about--------------------------------//
@@ -955,6 +959,11 @@ img {
         display: block;
         background-color: #3c5f7c;
         width: 100%;
+    }
+    .sp_about_photo {
+        img {
+            width: 100%;
+        }
     }
     .sp_tittle_about {
         padding-left: 2%;
@@ -1013,7 +1022,7 @@ img {
     .work_three {
         width: 100%;
         padding-bottom: 60px;
-        div {
+        h3 {
             font-size: 18px;
         }
         p {
@@ -1092,6 +1101,9 @@ img {
     .sp_aboutdetail_photo {
         width: 100%;
         text-align: center;
+        img {
+            width: 100%;
+        }
     }
     .sp_tittle_aboutdetail {
         padding-left: 2%;
@@ -1216,9 +1228,9 @@ img {
         }
     }
     .send_button input {
-        width: 150px;
-        font-size: 18px;
-        padding: 15px 0 15px 0;
+        width: 100px;
+        font-size: 15px;
+        padding: 12px 0 12px 0;
     }
 }
 @media screen and (max-width: 1400px) {
