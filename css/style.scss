@@ -1,0 +1,1285 @@
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl,
+dt,
+dd {
+    margin: 0;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    color: #000;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "ヒラギノ明朝 Pro W3",
+        "Yu Gothic", "Brush Script MT Italic ", "メイリオ",
+        "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+}
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+// ヘッダー箇所ーーーーーーーーーーーーーー---------------//
+// .header_overall {
+//     // background-color: #3c5f7c;
+// }
+.header_container {
+    // max-width: 85.6%;
+    margin-right: 300px;
+    // margin-right: 60px;
+    background-color: #3c5f7c;
+    display: flex;
+    justify-content: space-between;
+}
+.header_name {
+    h1 {
+        color: #fff;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        font-weight: bold;
+        font-size: 50px;
+        padding-top: 70px;
+        line-height: 1.75;
+        padding-left: 3.6%;
+        box-sizing: border-box;
+    }
+    .header_sns {
+        padding-left: 3.6%;
+        margin-bottom: 50px;
+        width: 8%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 10000;
+        position: relative;
+
+        img {
+            padding-right: 20px;
+        }
+    }
+    .header_text {
+        padding-left: 3.6%;
+        position: relative;
+        padding-bottom: 80px;
+        width: 535px;
+        z-index: 300;
+    }
+}
+
+.header_wrap {
+    // width: 75.6%;
+    position: relative;
+    left: 200px;
+}
+.pc_nav {
+    ul {
+        display: flex;
+        // padding-left: 40%;
+        z-index: 100;
+    }
+    li a {
+        color: #fff;
+        font-size: 25px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        font-weight: bold;
+        width: 150px;
+        display: block;
+        padding-bottom: 30px;
+        margin-top: 30px;
+        right: 0;
+
+        span {
+            color: #3c5f7c;
+            margin-right: 2.3%;
+        }
+    }
+}
+
+.header_photo {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    overflow: hidden;
+    height: 650px;
+
+    img {
+        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 465px;
+        width: 100%;
+    }
+}
+
+.sp_header_container {
+    display: none;
+}
+
+// about//-----------------------------------------
+.main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+// .main_about {
+//     max-width: 1400px;
+//     margin: 0 auto;
+//     display: flex;
+// }
+.main_div {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main_about_width {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header_main {
+    max-width: 1400px;
+}
+
+.about {
+    padding-top: 155px;
+}
+.tittle_about {
+    margin: 0 15% 50px 0;
+    text-align: right;
+    margin-left: auto;
+
+    p {
+        color: #3c5f7c;
+        font-size: 20px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        padding-right: 5%;
+        margin-top: -10px;
+    }
+}
+
+.about_wrap {
+    background-color: #3c5f7c;
+    width: 100%;
+
+    display: flex;
+}
+.about_photo {
+    margin-top: -50px;
+    width: 100%;
+}
+
+.about_text {
+    width: 57%;
+    padding-top: 55px;
+    padding-right: 10.1%;
+    padding-left: 9.6%;
+    position: relative;
+
+    div {
+        font-size: 35px;
+        color: #fff;
+        padding-bottom: 55px;
+        font-weight: bold;
+    }
+    p {
+        color: #fff;
+        font-size: 20px;
+        line-height: 2;
+    }
+}
+.about_more {
+    padding-top: 45px;
+    padding-left: 40%;
+
+    p {
+        margin-bottom: -40px;
+        font-size: 20px;
+        padding-left: 3%;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        text-align: center;
+    }
+
+    img {
+        margin-top: -50px;
+    }
+}
+.sp_about_container {
+    display: none;
+}
+
+// WORK-------------------------------------------//
+.work {
+    padding-top: 300px;
+}
+.work_container {
+    background-color: #a9c8d8;
+    padding-bottom: 100px;
+    position: relative;
+    max-width: 100%;
+    // background: linear-gradient(135deg, transparent 50px, #a9c8d8 0) top left,
+    //     linear-gradient(-135deg, transparent 0px, #a9c8d8 0) top right,
+    //     linear-gradient(-45deg, transparent 50px, #a9c8d8 0) bottom right,
+    //     linear-gradient(45deg, transparent 0px, #a9c8d8 0) bottom left;
+    // background-size: 50% 50%;
+    // background-repeat: no-repeat;
+}
+.work_container:before,
+.work_container:after {
+    width: calc(100% - 50px);
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    content: "";
+}
+.work_container:before {
+    border-bottom: solid 50px #a9c8d8;
+    border-left: solid 50px transparent;
+    bottom: 100%;
+}
+.work_container:after {
+    border-top: solid 50px #a9c8d8;
+    border-right: solid 50px transparent;
+    top: 100%;
+}
+.tittle_work {
+    text-align: center;
+    position: relative;
+    img {
+        margin-top: -150px;
+    }
+    p {
+        color: #3c5f7c;
+        font-size: 23px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        margin-top: -30px;
+    }
+}
+.work_wrap {
+    width: 82.5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 8.69%;
+    padding-right: 8.69%;
+}
+.work_three {
+    width: 28.1%;
+    position: relative;
+
+    h3 {
+        font-size: 25px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        font-weight: bold;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    p {
+        padding-top: 61px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+// ------contact---------------------------------//
+.contact {
+    padding-top: 90px;
+}
+.contact_container {
+    text-align: center;
+}
+.tittle_contact {
+    h2 {
+        color: #3c5f7c;
+        font-size: 50px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+    }
+    p {
+        color: #3c5f7c;
+        font-size: 20px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        margin-top: 20px;
+    }
+}
+.wrap_contact {
+    font-size: 30px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    padding-top: 45px;
+    color: #3c5f7c;
+    line-height: 1.9;
+}
+.contact_button {
+    background-color: #3c5f7c;
+    width: 22.6%;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 110px;
+    font-size: 20px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック bold", "Yu Gothic Medium",
+        "游ゴシック", "Yu Gothic", sans-serif;
+    padding: 30px 0 30px 0;
+    border-radius: 65px;
+}
+
+// フッター ------------------------------//
+.footer {
+    text-align: center;
+    background-color: #3c5f7c;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    p {
+        color: #fff;
+        font-size: 20px;
+        align-items: center;
+        font-family: "ヒラギノ明朝 Pro", serif;
+    }
+    img {
+        display: none;
+    }
+}
+
+// about詳細-------------------------------//
+.about_header {
+    background-color: #3c5f7c;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
+
+    ul {
+        display: flex;
+        position: relative;
+        padding-left: 4.1%;
+        margin-top: 20px;
+        align-items: center;
+    }
+    li {
+        color: #fff;
+        font-size: 25px;
+        width: 160px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        font-weight: bold;
+        align-items: center;
+    }
+    // div {
+    //     display: flex;
+    //     padding-left: 4.3%;
+    //     color: #fff;
+    //     font-size: 25px;
+    //     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+    //         "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    //     font-weight: bold;
+    //     align-items: center;
+    // }
+
+    img {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 40px;
+    }
+}
+// .sp_nav_about {
+//     display: none;
+// }
+// about----------//
+.about_letter {
+    padding-top: 33px;
+    text-align: center;
+    margin-bottom: 60px;
+
+    p {
+        color: #3c5f7c;
+        font-size: 20px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        margin-top: -10px;
+    }
+}
+
+.about_detail_container {
+    width: 43%;
+    background-color: #3c5f7c;
+    text-align: center;
+    padding: 80px 4.1% 80px 4.1%;
+    margin-left: 7%;
+
+    span {
+        color: #fff;
+        font-size: 15px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+    }
+    div {
+        color: #fff;
+        font-size: 35px;
+        padding: 23px 0 40px 0;
+    }
+    p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 2;
+        text-align: left;
+    }
+    .about_content {
+        margin-top: 50px;
+    }
+}
+.about_deatail_photo {
+    position: absolute;
+    top: 447px;
+    left: 56.5%;
+
+    margin-right: 7%;
+}
+
+// スキル------------------------------//
+.skill_tittle {
+    padding-top: 33px;
+    text-align: center;
+    p {
+        color: #3c5f7c;
+        font-size: 20px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        margin-top: -10px;
+    }
+}
+.skill_container {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 11% 30px 11%;
+}
+.wrap_skill {
+    width: 45%;
+
+    div {
+        color: #3c5f7c;
+        font-size: 30px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        font-weight: bold;
+        padding-top: 52px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    p {
+        color: #3c5f7c;
+        font-size: 20px;
+        margin-left: 5%;
+        line-height: 1.7;
+    }
+}
+// アバウトコンタクトーーーーーーーーーーーーーーーーーーーーーーー//
+.contact_about {
+    padding-top: 90px;
+    background-color: #3c5f7c;
+    padding-bottom: 70px;
+    margin-top: 70px;
+}
+.contact_about_container {
+    text-align: center;
+}
+.tittle_about_contact {
+    h2 {
+        color: #fff;
+        font-size: 50px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+    }
+    p {
+        color: #fff;
+        font-size: 20px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        margin-top: 20px;
+    }
+}
+.wrap_about_contact {
+    font-size: 30px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    padding-top: 63px;
+    color: #fff;
+    line-height: 1.9;
+}
+.contact_about_button {
+    background-color: #fff;
+    width: 22.6%;
+    color: #3c5f7c;
+    margin: 0 auto;
+    margin-top: 110px;
+    font-size: 20px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック bold", "Yu Gothic Medium",
+        "游ゴシック", "Yu Gothic", sans-serif;
+    padding: 30px 0 30px 0;
+    border-radius: 65px;
+}
+// フッターアバウトーーーーーーーーーーーーーーーーーーーーーー//
+.footer_about {
+    text-align: center;
+    background-color: #3c5f7c;
+    // margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    p {
+        color: #fff;
+        font-size: 20px;
+        align-items: center;
+        font-family: "ヒラギノ明朝 Pro", serif;
+    }
+    img {
+        display: none;
+    }
+}
+
+// コンタクト詳細ーーーーーーーーーーーーーーーーーーー//
+.contact_detail {
+    padding-top: 35px;
+    margin: 0 auto;
+}
+.contact_detail_container {
+    text-align: center;
+}
+.tittle_detail_contact {
+    h1 {
+        color: #3c5f7c;
+        font-size: 50px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+    }
+    p {
+        color: #3c5f7c;
+        font-size: 20px;
+        font-family: "ヒラギノ明朝 Pro", serif;
+        margin-top: 20px;
+    }
+}
+.wrap_detail_contact {
+    font-size: 25px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    padding-top: 63px;
+    padding-bottom: 45px;
+    color: #3c5f7c;
+    line-height: 1.9;
+}
+.contact_field {
+    text-align: left;
+    padding-bottom: 25px;
+    width: 50%;
+    margin: 0 auto;
+    input {
+        color: #fff;
+        width: 100%;
+        height: 35px;
+        background-color: #3c5f7c;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        color: #3c5f7c;
+        margin-bottom: 10px;
+    }
+    div {
+        width: 100%;
+        height: 35px;
+        background-color: #3c5f7c;
+    }
+    .box {
+        width: 100%;
+        height: 405px;
+        input {
+            color: #fff;
+            width: 100%;
+            height: 405px;
+            vertical-align: text-top;
+        }
+    }
+}
+.send_button {
+    // width: 245px;
+    // background-color: #09afff;
+    // margin: 0 auto;
+    // margin-top: 40px;
+    button {
+        color: #fff;
+        font-size: 23px;
+        padding: 18px 0 18px 0;
+        width: 150px;
+        background-color: #09afff;
+        margin: 0 auto;
+        margin-top: 40px;
+        border: #fff solid;
+    }
+}
+// 映さない部分--------------------------//
+.sp_header_container {
+    display: none;
+}
+.sp_nav {
+    display: none;
+}
+.sp_header_about {
+    display: none;
+}
+.sp_menu_btn {
+    display: none;
+}
+.sp_menu_about_btn {
+    display: none;
+}
+.sp_nav_about {
+    display: none;
+}
+.sp_about_detail {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    // ヘッダー------------------------------//
+    .header_overall {
+        display: none;
+    }
+    .header_photo {
+        display: none;
+    }
+    .sp_header_container {
+        background-color: #3c5f7c;
+        width: 100%;
+        // height: 392px;
+        display: block;
+        position: relative;
+
+        h1 {
+            color: #fff;
+            font-family: "ヒラギノ明朝 Pro", serif;
+            font-weight: bold;
+            padding-left: 2%;
+            font-size: 20px;
+            padding-top: 3px;
+            span {
+                padding-left: 7%;
+            }
+        }
+        .sp_header_back {
+            background-color: #3c5f7c;
+            padding-bottom: 40px;
+        }
+        .sp_header_photo img {
+            max-width: 100%;
+            // height: 313px;
+            padding-top: 5px;
+        }
+    }
+    .mojiphoto img {
+        position: absolute;
+        bottom: 40px;
+        left: 4%;
+        width: 20%;
+        // margin-top: -80px;
+        // display: block;
+    }
+
+    .sp_menu_btn {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        display: block;
+        z-index: 1000;
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        // .sp_menu_btn span {
+        //     background: #fff;
+        //     width: 30px;
+        //     height: 3px;
+        //     display: block;
+        //     position: relative;
+        // }
+    }
+    .sp_menu_btn span {
+        background: #fff;
+        width: 33px;
+        height: 3px;
+        display: block;
+        position: relative;
+        transition: 0.3s;
+        top: 20px;
+    }
+    .sp_menu_btn span::before,
+    .sp_menu_btn span::after {
+        content: "";
+        background: #fff;
+        width: 33px;
+        height: 3px;
+        display: block;
+        position: absolute;
+        transition: 0.3s;
+    }
+    .sp_menu_btn span::before {
+        bottom: 10px;
+    }
+    .sp_menu_btn span::after {
+        top: 10px;
+    }
+    .open span {
+        background: transparent;
+    }
+    .open span::before {
+        bottom: 0px;
+        transform: rotate(45deg);
+    }
+    .open span::after {
+        top: 0px;
+        transform: rotate(135deg);
+    }
+    .sp_nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        li {
+            color: #fff;
+            font-size: 25px;
+            font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+                "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+            font-weight: bold;
+            display: block;
+            padding: 20px 0;
+            text-align: center;
+        }
+    }
+    // about詳細ヘッダー---------------------------------//
+    .pc_nav_about {
+        display: none;
+    }
+    .about_header {
+        display: none;
+        span {
+            display: none;
+        }
+    }
+    .sp_header_about {
+        background-color: #3c5f7c;
+        display: block;
+        height: 55px;
+    }
+    .sp_menu_about_btn {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        display: block;
+        z-index: 1000;
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        // .sp_menu_btn span {
+        //     background: #fff;
+        //     width: 30px;
+        //     height: 3px;
+        //     display: block;
+        //     position: relative;
+        // }
+    }
+    .sp_menu_about_btn span {
+        background: #fff;
+        width: 33px;
+        height: 3px;
+        display: block;
+        position: relative;
+        transition: 0.3s;
+        top: 20px;
+    }
+    .sp_menu_about_btn span::before,
+    .sp_menu_about_btn span::after {
+        content: "";
+        background: #fff;
+        width: 33px;
+        height: 3px;
+        display: block;
+        position: absolute;
+        transition: 0.3s;
+    }
+    .sp_menu_about_btn span::before {
+        bottom: 10px;
+    }
+    .sp_menu_about_btn span::after {
+        top: 10px;
+    }
+    .open span {
+        background: transparent;
+    }
+    .open span::before {
+        bottom: 0px;
+        transform: rotate(45deg);
+    }
+    .open span::after {
+        top: 0px;
+        transform: rotate(135deg);
+    }
+    .sp_nav_about {
+        // display: block;
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 100;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        li {
+            color: #fff;
+            font-size: 25px;
+            font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+                "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+            font-weight: bold;
+            display: block;
+            padding: 20px 0;
+            text-align: center;
+        }
+    }
+    // コンタクトボタン//
+    .contact_button {
+        width: 30%;
+    }
+    .contact_about_button {
+        width: 30%;
+    }
+    // コンタクト詳細にーーーーーーーーーーーーー//
+    .contact_field {
+        width: 80%;
+    }
+    .send_button input {
+        width: 180px;
+        font-size: 23px;
+        padding: 20px 0 20px 0;
+    }
+    // フッター---------------------/
+    .footer {
+        text-align: left;
+        display: flex;
+        margin-top: 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        max-width: 100%;
+        justify-content: space-between;
+        p {
+            color: #fff;
+            font-size: 14px;
+            font-family: "ヒラギノ明朝 Pro", serif;
+            // padding-left: 4%;
+            margin-top: 5px;
+            align-items: center;
+            padding-left: 10px;
+        }
+        a {
+            // margin-left: 50%;
+            img {
+                display: block;
+                align-items: center;
+                padding-right: 20px;
+            }
+        }
+    }
+    // フッターアバウト
+    .footer_about {
+        border-top: solid 1px #fff;
+        text-align: left;
+        display: flex;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        max-width: 100%;
+        justify-content: space-between;
+        p {
+            color: #fff;
+            font-size: 14px;
+            font-family: "ヒラギノ明朝 Pro", serif;
+            // padding-left: 4%;
+            margin-top: 5px;
+            align-items: center;
+            padding-left: 10px;
+        }
+        a {
+            // margin-left: 60%;
+            img {
+                display: block;
+                align-items: center;
+                text-align: right;
+                padding-right: 20px;
+            }
+        }
+    }
+    .send_button input {
+        width: 120px;
+        font-size: 17px;
+        padding: 12px 0 12px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    // about--------------------------------//
+    .about_container {
+        display: none;
+    }
+    .about_wrap {
+        display: none;
+    }
+    .sp_about_container {
+        display: block;
+        background-color: #3c5f7c;
+        width: 100%;
+    }
+    .sp_about_photo {
+        img {
+            width: 100%;
+        }
+    }
+    .sp_tittle_about {
+        padding-left: 2%;
+        p {
+            color: #fff;
+            font-size: 8px;
+            font-family: "ヒラギノ明朝 Pro", serif;
+            margin-top: -7px;
+            padding-left: 3%;
+        }
+    }
+    .sp_about_text {
+        color: #fff;
+        padding-top: 15px;
+        font-size: 22px;
+        padding-left: 2%;
+        padding-right: 2%;
+        p {
+            color: #fff;
+            padding-top: 12px;
+            font-size: 18px;
+        }
+    }
+    .sp_about_more {
+        text-align: right;
+        p {
+            font-size: 14px;
+            padding-right: 10%;
+            padding-top: 50px;
+            margin-bottom: -10px;
+        }
+        img {
+            width: 30%;
+            padding-right: 3%;
+            padding-bottom: 50px;
+            margin-top: 7px;
+        }
+    }
+    // work-----------------------------------//
+    .work {
+        padding-top: 125px;
+    }
+    .tittle_work {
+        img {
+            margin-top: -200px;
+        }
+        p {
+            font-size: 8px;
+            margin-top: 7px;
+        }
+    }
+    .work_wrap {
+        display: block;
+        text-align: center;
+    }
+    .work_three {
+        width: 100%;
+        padding-bottom: 60px;
+        h3 {
+            font-size: 18px;
+        }
+        p {
+            padding-top: 30px;
+        }
+    }
+    .work_container {
+        padding-bottom: 0px;
+    }
+    // contact------------------//
+    .contact {
+        padding-top: 90px;
+    }
+    .tittle_contact {
+        font-size: 25px;
+        p {
+            font-size: 12px;
+        }
+    }
+    .wrap_contact {
+        font-size: 18px;
+    }
+    .contact_button {
+        background-color: #3c5f7c;
+        width: 47%;
+        color: #fff;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-size: 18px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック bold",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        padding: 20px 0 20px 0;
+        border-radius: 65px;
+    }
+    // footer-------------------------------//
+    // .footer {
+    //     text-align: left;
+    //     display: flex;
+    //     margin-top: 60px;
+    //     padding-top: 25px;
+    //     padding-bottom: 25px;
+    //     position: relative;
+    //     max-width: 100%;
+    //     p {
+    //         color: #fff;
+    //         font-size: 14px;
+    //         font-family: "ヒラギノ明朝 Pro", serif;
+    //         padding-left: 4%;
+    //         margin-top: 5px;
+    //         align-items: center;
+    //     }
+    //     a {
+    //         // margin-left: 50%;
+    //         img {
+    //             display: block;
+    //             align-items: center;
+    //         }
+    //     }
+    // }
+    // spアバウト詳細についてーーーーーーーーーー//
+    .about_main {
+        display: none;
+    }
+    .about_deatail_photo {
+        display: none;
+    }
+    .about_letter {
+        p {
+            font-size: 14px;
+        }
+    }
+    .sp_about_detail {
+        display: block;
+        background-color: #3c5f7c;
+    }
+    .sp_aboutdetail_photo {
+        width: 100%;
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
+    .sp_tittle_aboutdetail {
+        padding-left: 2%;
+        p {
+            color: #fff;
+            font-size: 15px;
+            font-family: "ヒラギノ明朝 Pro", serif;
+            padding-left: 1%;
+        }
+    }
+    .sp_aboutdetail_text {
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        div {
+            font-size: 25px;
+            color: #fff;
+        }
+        p {
+            color: #fff;
+            font-size: 14px;
+            padding-top: 20px;
+            line-height: 1.5;
+        }
+    }
+    .sp_aboutdetail_content {
+        padding-bottom: 20px;
+    }
+    // sp版のスキル------------------//
+    .skill_tittle {
+        p {
+            font-size: 14px;
+            padding-top: 3px;
+        }
+    }
+    .skill_container {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .wrap_skill {
+        width: 100%;
+        padding-top: 50px;
+
+        div {
+            font-size: 25px;
+            padding-top: 25px;
+            padding-bottom: 22px;
+        }
+    }
+    // sp版アバウトコンタクトーーーーーーーーーーーーーーーーーーーーーーー//
+    .contact_about {
+        padding-top: 50px;
+    }
+    .tittle_about_contact {
+        font-size: 25px;
+        p {
+            font-size: 12px;
+        }
+    }
+    .wrap_about_contact {
+        font-size: 18px;
+    }
+    .contact_about_button {
+        background-color: #fff;
+        width: 47%;
+        color: #3c5f7c;
+        margin: 0 auto;
+        margin-top: 70px;
+        font-size: 16px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック bold",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        padding: 30px 0 30px 0;
+        border-radius: 65px;
+    }
+    // sp版アバウトフッターーーーーーーーーーーーーーーーーーーーーー//
+
+    // .footer_about {
+    //     border-top: solid 1px #fff;
+    //     text-align: left;
+    //     display: flex;
+    //     padding-top: 25px;
+    //     padding-bottom: 25px;
+    //     position: relative;
+    //     max-width: 100%;
+    //     p {
+    //         color: #fff;
+    //         font-size: 14px;
+    //         font-family: "ヒラギノ明朝 Pro", serif;
+    //         padding-left: 4%;
+    //         margin-top: 5px;
+    //         align-items: center;
+    //     }
+    //     a {
+    //         // margin-left: 60%;
+    //         img {
+    //             display: block;
+    //             align-items: center;
+    //             text-align: right;
+    //         }
+    //     }
+    // }
+    // コンタクト詳細ーーーーーー-------//
+    // .contact_detail {
+    //     width: 80%;
+    // }
+    .tittle_detail_contact {
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    .wrap_detail_contact {
+        font-size: 18px;
+    }
+    .contact_field {
+        width: 80%;
+        p {
+            font-size: 15px;
+        }
+    }
+    .send_button button {
+        width: 100px;
+        font-size: 15px;
+        padding: 12px 0 12px 0;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .header_wrap {
+        position: relative;
+        left: 120px;
+    }
+}
+@media screen and (max-width: 1320px) {
+    .header_wrap {
+        position: relative;
+        left: 80px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .header_wrap {
+        position: relative;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header_wrap {
+        position: relative;
+        left: -80px;
+    }
+}
+@media screen and (max-width: 1125px) {
+    .header_wrap {
+        position: relative;
+        left: -160px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .header_wrap {
+        position: relative;
+        left: -180px;
+    }
+}
