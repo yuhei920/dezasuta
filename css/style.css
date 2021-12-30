@@ -315,7 +315,7 @@ img {
 .work_three p {
   padding-top: 61px;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
   line-height: 1.5;
 }
 
@@ -345,7 +345,7 @@ img {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   padding-top: 45px;
   color: #3c5f7c;
-  line-height: 1.9;
+  line-height: 1.4;
 }
 
 .contact_button {
@@ -516,7 +516,8 @@ img {
   color: #3c5f7c;
   font-size: 20px;
   margin-left: 5%;
-  line-height: 1.7;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .contact_about {
@@ -548,7 +549,7 @@ img {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   padding-top: 63px;
   color: #fff;
-  line-height: 1.9;
+  line-height: 1.4;
 }
 
 .contact_about_button {
@@ -612,7 +613,7 @@ img {
   padding-top: 63px;
   padding-bottom: 45px;
   color: #3c5f7c;
-  line-height: 1.9;
+  line-height: 1.4;
 }
 
 .contact_field {
